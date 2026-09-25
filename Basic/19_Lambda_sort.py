@@ -9,6 +9,8 @@ policies = [
 
 
 sortedlistdesc=list(sorted(policies,key=lambda p: p["name"], reverse=True))
+
 sortedlistasc=list(sorted(policies,key=lambda p: p["name"]))
+
 print("decending:" ,sortedlistdesc)
 print("Asecnding:",sortedlistasc)
