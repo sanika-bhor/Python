@@ -1,5 +1,5 @@
 class EventDispatcher:
-    def __init__(self):
+   def __init__(self):
         self.handlers = {}
 
     def subscribe(self, event_name, handler):
